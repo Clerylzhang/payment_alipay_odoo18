@@ -1,0 +1,11 @@
+<!-- data/payment_provider_data.xml -->
+<odoo>
+    <data noupdate="1">
+        <!-- 定义支付供应商记录 -->
+        <record id="payment_provider_alipay" model="payment.provider">
+            <field name="name">Alipay</field>
+            <field name="code">alipay</field>
+            <field name="company_id" ref="base.main_company"/>
+        </record>
+    </data>
+</odoo>
